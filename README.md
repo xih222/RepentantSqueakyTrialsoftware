@@ -108,8 +108,11 @@ The function will therefore return:
 
 Before you go about implementing this function, write down the function signature here in the Readme:
 
-Explanation:
-
+```
+question_4 :: Int a=> [a] -> a
+```
+```
+Explanation: The function first sets the function signature, question_4, to accept an matrices array, and then it would sort the arrays in paths where after 
 ## Question 5
 
 Write a function that multiplies two matrices together. If you're not familiar with matrix multiplication, you can read about that [here](https://en.wikipedia.org/wiki/Matrix_multiplication).
