@@ -41,8 +41,9 @@ Before you go about implementing this function, write down the function signatur
 ```
 question_1 :: Int a => [a] -> a -> [(a,b)]
 ```
+```
 Explanation: The function first sets the function signature, question_1, to accept an array input, then a sum input, and finally output an array list in terms of two. It would first set question_1 some value of x, and then it would set question_1 to take in another number of any length. It would then split the arrays into list of twos where each (a,b) would = the sum value.
-
+```
 ## Question 2
 
 Given an unsorted array of numbers (you can assume they are of type `Int`), find all numbers such that the number is greater than all elements that occur after it in the array. For example, given the array:
@@ -59,8 +60,12 @@ Your function will return:
 
 Before you go about implementing this function, write down the function signature here in the Readme:
 
-Explanation:
-
+``` 
+question_2 :: Int a => [a] -> a
+```
+```
+Explanation: The function first sets the function signature, question_2, to accept an array input, and then output an array list. It would first set question_2 some value of x for array of any length, and then it would cut the array where for each item in the list, a number would be removed if less than the next value. 
+```
 ## Question 3 
 
 Given a string that represents the current time on a continuous 12 hour analog clock, calculate the smaller angle in degrees between the two hands.
