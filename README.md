@@ -61,7 +61,7 @@ Before you go about implementing this function, write down the function signatur
 
 Explanation:
 
-## Question 3
+## Question 3 
 
 Given a string that represents the current time on a continuous 12 hour analog clock, calculate the smaller angle in degrees between the two hands.
 
